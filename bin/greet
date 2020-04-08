@@ -4,4 +4,5 @@ require_relative "../lib/greeting.rb"
 # code your CLI here!
 
   puts "Hi! I'm HAL, what's your name?"
-  name = greeting.split.chomp
+  name = gets.split.chomp
+  greeting(name)
